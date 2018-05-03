@@ -1,0 +1,4 @@
+^.*\.Rproj$
+^.*\doku$
+^\.Rproj\.user$
+^.*\doku\.user$

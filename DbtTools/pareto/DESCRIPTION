@@ -1,0 +1,18 @@
+Package: pareto
+Type: Package
+Title: DataBionics Toolbox - Pareto
+Version: 1.0.4
+Date: 2018-01-27
+Author: Friederike Matz, Felix Pape, Michael Thrun
+Maintainer: Michael Thrun <mthrun@mathematik.uni-marburg.de>
+Description: Functions for Pareto radius/density
+License: GPL
+LazyLoad: yes
+#Depends: dbt.general, dbt.nanHandling, dbt.Plot, sm, matlab, graphics,RPMG, dbt.Statistics
+Depends: ggplot2
+Imports: Rcpp, graphics, caTools, AdaptGauss
+Suggests: sm, plotly, matlab, RPMG
+LinkingTo: Rcpp, RcppArmadillo
+Packaged: 2016-05-03 13:42:08 UTC; mthrun
+NeedsCompilation: yes
+SystemRequirements: C++11

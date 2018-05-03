@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "MCE  = function(DataOrDistances,OutputDimension=2,Centring=T, EmbeddingMethod = \"SVD\"){\n  # wrapper for internal function mce by its original inventing authors. \n  # ProjectedPoints <- MCE(Data, OutputDimension)\n  # INPUT\n  # DataOrDistances    Data or pairwise Distancematrix. If symmetric a Distancematrix is assumed.\n  # Centring             if True, the dataset is centered\n  # EmbeddingMethod   Method for Embedding the kernel onto OutputDimensions. \"SVD\" or \"MDS\"\n  # OUTPUT\n  # ProjectedPoints\n  # src: https://sites.google.com/site/carlovittoriocannistraci/5-datasets-and-matlab-code/minimum-curvilinearity-ii-april-2012\n  \n  if(isSymmetric.matrix(DataOrDistances)){\n    x = DataOrDistances\n  }\n  else{\n    x = as.matrix(dist(DataOrDistances))\n  }\n  \n  n = OutputDimension\n  centring = Centring\n  \n    # This code is performs just MCE and ncMCE (both SVD-based)\n    \n    #Given a distance or correlation matrix x, it performs Minimum Curvilinear \n    #Embedding (MCE) or non-centred MCE (ncMCE) (coded 24-March-2013 by \n    #Gregorio Alanis-Lobato and checked by Carlo Vittorio Cannistraci)\n    \n    #INPUT\n    #   x => Distance (example: Euclidean) or distance-adjusted correlation matrix (example: x = 1 - Pearson_correlation)\n    #   n => Dimension into which the data is to be embedded\n    #   centring => 'yes' if x should be centred or 'no' if not\n    #OUTPUT\n    #   s => Coordinates of the samples being embedded into the reduced n-dimesional space\n    \n    # src: https://sites.google.com/site/carlovittoriocannistraci/5-datasets-and-matlab-code/minimum-curvilinearity-ii-april-2012\n    \n    #Make sure the required library 'igraph' is installed and load it\n    if(!require(\"igraph\")) stop(\"MCE: igraph has to be installed\")\n    \n    #Make sure the matrix is symmetric\n    x <- pmax(x, t(x));\n    \n    #Create a graph object out of the adjacency matrix x\n    g <- graph.adjacency(x, mode = \"undirected\", weighted = TRUE);\n    \n    #MC-kernel computation\n    mst <- minimum.spanning.tree(g);\n    kernel <- shortest.paths(mst);\n    \n    #Kernel centring\n    if(centring){\n      N <- nrow(kernel);\n      J <- diag(N) - (1/N)*matrix(1, N, N); #Form the centring matrix J\n      kernel <- (-0.5)*(J %*% kernel^2 %*% J);\n    }\n    \n    if(EmbeddingMethod == \"SVD\"){\n      s <- SVDEmbedding(kernel, n)\n    }\n    else if(EmbeddingMethod == \"MDS\"){\n      s <- MDS(kernel, OutputDimension = n)$ProjectedPoints\n    }\n    \n    return(s)\n}",
+    "created" : 1516617842612.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1545789474",
+    "id" : "BC495C75",
+    "lastKnownWriteTime" : 1516619097,
+    "last_content_update" : 1516619097,
+    "path" : "~/Documents/PUB/dbt/Projections/R/MCE.R",
+    "project_path" : "R/MCE.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

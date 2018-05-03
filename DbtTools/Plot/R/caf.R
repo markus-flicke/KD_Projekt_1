@@ -1,0 +1,4 @@
+caf <- function(){
+    graphics.off()
+}
+

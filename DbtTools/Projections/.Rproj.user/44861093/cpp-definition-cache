@@ -1,0 +1,1322 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/NeRV.cpp",
+                "kind" : 6,
+                "line" : 25,
+                "name" : "DataSet2NumericMatrix(dredviz::DataSet)",
+                "parent_name" : "",
+                "usr" : "c:@F@DataSet2NumericMatrix#$@N@dredviz@C@DataSet#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/NeRV.cpp",
+                "kind" : 6,
+                "line" : 39,
+                "name" : "c_NeRV(NumericMatrix, double, int, int, int, int, bool, int, Function)",
+                "parent_name" : "",
+                "usr" : "c:@F@c_NeRV#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#d#I#I#I#I#b#I#$@N@Rcpp@C@Function_Impl>#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/NeRV.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/c_measure.cpp",
+                "kind" : 6,
+                "line" : 19,
+                "name" : "c_measure(NumericMatrix, NumericMatrix, unsigned int)",
+                "parent_name" : "",
+                "usr" : "c:@F@c_measure#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#i#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/c_measure.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 26,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/calculatedistancematrix.cpp",
+                "kind" : 7,
+                "line" : 11,
+                "name" : "operator(const dredviz::DataMatrix &, dredviz::Metric &, dredviz::DataMatrix &)",
+                "parent_name" : "CalculateDistanceMatrix",
+                "usr" : "c:@N@dredviz@C@CalculateDistanceMatrix@F@operator()#&1$@N@dredviz@C@DataMatrix#&$@N@dredviz@C@Metric#&S1_#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/calculatedistancematrix.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/calculatedistancematrix.h",
+                "kind" : 2,
+                "line" : 14,
+                "name" : "CalculateDistanceMatrix",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@CalculateDistanceMatrix"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/calculatedistancematrix.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 23,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conjugategradientopt.cpp",
+                "kind" : 7,
+                "line" : 14,
+                "name" : "perform(dredviz::DataMatrix &)",
+                "parent_name" : "ConjugateGradientOpt",
+                "usr" : "c:@N@dredviz@C@ConjugateGradientOpt@F@perform#&$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 23,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conjugategradientopt.cpp",
+                "kind" : 7,
+                "line" : 111,
+                "name" : "updateDynamicParameters(size_t, size_t)",
+                "parent_name" : "ConjugateGradientOpt",
+                "usr" : "c:@N@dredviz@C@ConjugateGradientOpt@F@updateDynamicParameters#l#l#"
+            },
+            {
+                "column" : 23,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conjugategradientopt.cpp",
+                "kind" : 7,
+                "line" : 128,
+                "name" : "setIterationsPerStep(size_t)",
+                "parent_name" : "ConjugateGradientOpt",
+                "usr" : "c:@N@dredviz@C@ConjugateGradientOpt@F@setIterationsPerStep#l#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conjugategradientopt.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conjugategradientopt.h",
+                "kind" : 2,
+                "line" : 22,
+                "name" : "ConjugateGradientOpt",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@ConjugateGradientOpt"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conjugategradientopt.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 12,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conttrust.cpp",
+                "kind" : 7,
+                "line" : 32,
+                "name" : "measure(const dredviz::DistanceMatrix &, const dredviz::DistanceMatrix &)",
+                "parent_name" : "ContTrust",
+                "usr" : "c:@N@dredviz@C@ContTrust@F@measure#&1$@N@dredviz@C@DistanceMatrix#S0_#"
+            },
+            {
+                "column" : 12,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conttrust.cpp",
+                "kind" : 7,
+                "line" : 248,
+                "name" : "getContinuity(size_t, int)",
+                "parent_name" : "ContTrust",
+                "usr" : "c:@N@dredviz@C@ContTrust@F@getContinuity#l#I#"
+            },
+            {
+                "column" : 12,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conttrust.cpp",
+                "kind" : 7,
+                "line" : 262,
+                "name" : "getTrustworthiness(size_t, int)",
+                "parent_name" : "ContTrust",
+                "usr" : "c:@N@dredviz@C@ContTrust@F@getTrustworthiness#l#I#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conttrust.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conttrust.h",
+                "kind" : 2,
+                "line" : 17,
+                "name" : "ContTrust",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@ContTrust"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/conttrust.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/costfunction.h",
+                "kind" : 2,
+                "line" : 13,
+                "name" : "CostFunction",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@CostFunction"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/costfunction.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataloader.h",
+                "kind" : 2,
+                "line" : 13,
+                "name" : "DataLoader",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@DataLoader"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataloader.h",
+                "kind" : 2,
+                "line" : 27,
+                "name" : "InputError",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@DataLoader@C@InputError"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataloader.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 26,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.cpp",
+                "kind" : 7,
+                "line" : 88,
+                "name" : "operator=(const dredviz::DataMatrix &)",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@operator=#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 16,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.cpp",
+                "kind" : 6,
+                "line" : 149,
+                "name" : "operator<<(std::ostream &, const dredviz::DataMatrix &)",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@F@operator<<#&$@N@std@N@__1@C@basic_ostream>#C#$@N@std@N@__1@S@char_traits>#C#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.cpp",
+                "kind" : 7,
+                "line" : 165,
+                "name" : "scale(double)",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@scale#d#"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.cpp",
+                "kind" : 7,
+                "line" : 174,
+                "name" : "getMax",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@getMax#1"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.cpp",
+                "kind" : 7,
+                "line" : 188,
+                "name" : "getMin",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@getMin#1"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.cpp",
+                "kind" : 7,
+                "line" : 202,
+                "name" : "elementwiseProduct(const dredviz::DataMatrix &)",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@elementwiseProduct#&1$@N@dredviz@C@DataMatrix#1"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.cpp",
+                "kind" : 7,
+                "line" : 215,
+                "name" : "getAverage",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@getAverage#1"
+            },
+            {
+                "column" : 13,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.cpp",
+                "kind" : 7,
+                "line" : 228,
+                "name" : "normalize(double)",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@normalize#d#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+                "kind" : 2,
+                "line" : 14,
+                "name" : "DataMatrix",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@DataMatrix"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+                "kind" : 7,
+                "line" : 40,
+                "name" : "getRows",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@getRows#1"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+                "kind" : 7,
+                "line" : 44,
+                "name" : "getCols",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@getCols#1"
+            },
+            {
+                "column" : 11,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+                "kind" : 7,
+                "line" : 49,
+                "name" : "operator(size_t, size_t)",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@operator()#l#l#"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+                "kind" : 7,
+                "line" : 54,
+                "name" : "operator(size_t, size_t)",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@operator()#l#l#1"
+            },
+            {
+                "column" : 16,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+                "kind" : 7,
+                "line" : 60,
+                "name" : "operator+=(const dredviz::DataMatrix &)",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@operator+=#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 16,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+                "kind" : 7,
+                "line" : 70,
+                "name" : "operator-=(const dredviz::DataMatrix &)",
+                "parent_name" : "DataMatrix",
+                "usr" : "c:@N@dredviz@C@DataMatrix@F@operator-=#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+                "kind" : 2,
+                "line" : 98,
+                "name" : "OutOfBoundsExc",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@DataMatrix@C@OutOfBoundsExc"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+                "kind" : 2,
+                "line" : 106,
+                "name" : "ZeroDimExc",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@DataMatrix@C@ZeroDimExc"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/datamatrix.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.cpp",
+                "kind" : 7,
+                "line" : 20,
+                "name" : "addLabels(vector<vector<string> > &)",
+                "parent_name" : "DataSet",
+                "usr" : "c:@N@dredviz@C@DataSet@F@addLabels#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#$@N@std@N@__1@C@allocator>#S3_#$@N@std@N@__1@C@allocator>#S2_#"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.cpp",
+                "kind" : 7,
+                "line" : 27,
+                "name" : "addAxisLabels(vector<string> &)",
+                "parent_name" : "DataSet",
+                "usr" : "c:@N@dredviz@C@DataSet@F@addAxisLabels#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#$@N@std@N@__1@C@allocator>#S2_#"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.cpp",
+                "kind" : 7,
+                "line" : 34,
+                "name" : "getLabels",
+                "parent_name" : "DataSet",
+                "usr" : "c:@N@dredviz@C@DataSet@F@getLabels#1"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.cpp",
+                "kind" : 7,
+                "line" : 41,
+                "name" : "getAxisLabels",
+                "parent_name" : "DataSet",
+                "usr" : "c:@N@dredviz@C@DataSet@F@getAxisLabels#1"
+            },
+            {
+                "column" : 20,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.cpp",
+                "kind" : 7,
+                "line" : 46,
+                "name" : "operator=(const dredviz::DataSet &)",
+                "parent_name" : "DataSet",
+                "usr" : "c:@N@dredviz@C@DataSet@F@operator=#&1$@N@dredviz@C@DataSet#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 3,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.h",
+                "kind" : 2,
+                "line" : 21,
+                "name" : "DataSet",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@DataSet"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.h",
+                "kind" : 7,
+                "line" : 51,
+                "name" : "hasLabels",
+                "parent_name" : "DataSet",
+                "usr" : "c:@N@dredviz@C@DataSet@F@hasLabels#1"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.h",
+                "kind" : 7,
+                "line" : 56,
+                "name" : "hasAxisLabels",
+                "parent_name" : "DataSet",
+                "usr" : "c:@N@dredviz@C@DataSet@F@hasAxisLabels#1"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dataset.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 17,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distancematrix.cpp",
+                "kind" : 7,
+                "line" : 32,
+                "name" : "getAverage",
+                "parent_name" : "DistanceMatrix",
+                "usr" : "c:@N@dredviz@C@DistanceMatrix@F@getAverage#1"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distancematrix.cpp",
+                "kind" : 7,
+                "line" : 46,
+                "name" : "getMax",
+                "parent_name" : "DistanceMatrix",
+                "usr" : "c:@N@dredviz@C@DistanceMatrix@F@getMax#1"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distancematrix.cpp",
+                "kind" : 7,
+                "line" : 59,
+                "name" : "getMin",
+                "parent_name" : "DistanceMatrix",
+                "usr" : "c:@N@dredviz@C@DistanceMatrix@F@getMin#1"
+            },
+            {
+                "column" : 17,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distancematrix.cpp",
+                "kind" : 7,
+                "line" : 72,
+                "name" : "scale(double)",
+                "parent_name" : "DistanceMatrix",
+                "usr" : "c:@N@dredviz@C@DistanceMatrix@F@scale#d#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distancematrix.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distancematrix.h",
+                "kind" : 2,
+                "line" : 15,
+                "name" : "DistanceMatrix",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@DistanceMatrix"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distancematrix.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distcomp.h",
+                "kind" : 2,
+                "line" : 11,
+                "name" : "CompareIndicesDist",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@CompareIndicesDist"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distcomp.h",
+                "kind" : 7,
+                "line" : 21,
+                "name" : "setIndex(size_t)",
+                "parent_name" : "CompareIndicesDist",
+                "usr" : "c:@N@dredviz@C@CompareIndicesDist@F@setIndex#l#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distcomp.h",
+                "kind" : 7,
+                "line" : 26,
+                "name" : "operator(size_t, size_t)",
+                "parent_name" : "CompareIndicesDist",
+                "usr" : "c:@N@dredviz@C@CompareIndicesDist@F@operator()#l#l#"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distcomp.h",
+                "kind" : 2,
+                "line" : 35,
+                "name" : "CompareIndicesProjDist",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@CompareIndicesProjDist"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distcomp.h",
+                "kind" : 7,
+                "line" : 51,
+                "name" : "setIndex(size_t)",
+                "parent_name" : "CompareIndicesProjDist",
+                "usr" : "c:@N@dredviz@C@CompareIndicesProjDist@F@setIndex#l#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distcomp.h",
+                "kind" : 7,
+                "line" : 55,
+                "name" : "setBest(bool)",
+                "parent_name" : "CompareIndicesProjDist",
+                "usr" : "c:@N@dredviz@C@CompareIndicesProjDist@F@setBest#b#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distcomp.h",
+                "kind" : 7,
+                "line" : 60,
+                "name" : "operator(size_t, size_t)",
+                "parent_name" : "CompareIndicesProjDist",
+                "usr" : "c:@N@dredviz@C@CompareIndicesProjDist@F@operator()#l#l#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/distcomp.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 16,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dynamicdouble.cpp",
+                "kind" : 7,
+                "line" : 18,
+                "name" : "update(size_t, size_t)",
+                "parent_name" : "DynamicDouble",
+                "usr" : "c:@N@dredviz@C@DynamicDouble@F@update#l#l#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dynamicdouble.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dynamicdouble.h",
+                "kind" : 2,
+                "line" : 12,
+                "name" : "DynamicDouble",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@DynamicDouble"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dynamicdouble.h",
+                "kind" : 7,
+                "line" : 24,
+                "name" : "value",
+                "parent_name" : "DynamicDouble",
+                "usr" : "c:@N@dredviz@C@DynamicDouble@F@value#1"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/dynamicdouble.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 12,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclidean.cpp",
+                "kind" : 7,
+                "line" : 11,
+                "name" : "operator(const dredviz::DataMatrix &, size_t, size_t)",
+                "parent_name" : "Euclidean",
+                "usr" : "c:@N@dredviz@C@Euclidean@F@operator()#&1$@N@dredviz@C@DataMatrix#l#l#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclidean.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclidean.h",
+                "kind" : 2,
+                "line" : 14,
+                "name" : "Euclidean",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@Euclidean"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclidean.h",
+                "kind" : 7,
+                "line" : 19,
+                "name" : "isSymmetric",
+                "parent_name" : "Euclidean",
+                "usr" : "c:@N@dredviz@C@Euclidean@F@isSymmetric#1"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclidean.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 19,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclideansquared.cpp",
+                "kind" : 7,
+                "line" : 10,
+                "name" : "operator(const dredviz::DataMatrix &, size_t, size_t)",
+                "parent_name" : "EuclideanSquared",
+                "usr" : "c:@N@dredviz@C@EuclideanSquared@F@operator()#&1$@N@dredviz@C@DataMatrix#l#l#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclideansquared.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclideansquared.h",
+                "kind" : 2,
+                "line" : 12,
+                "name" : "EuclideanSquared",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@EuclideanSquared"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclideansquared.h",
+                "kind" : 7,
+                "line" : 15,
+                "name" : "isSymmetric",
+                "parent_name" : "EuclideanSquared",
+                "usr" : "c:@N@dredviz@C@EuclideanSquared@F@isSymmetric#1"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/euclideansquared.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 12,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/exception.cpp",
+                "kind" : 7,
+                "line" : 15,
+                "name" : "getErrMsg",
+                "parent_name" : "Exception",
+                "usr" : "c:@N@dredviz@C@Exception@F@getErrMsg#1"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/exception.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/exception.h",
+                "kind" : 2,
+                "line" : 12,
+                "name" : "Exception",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@Exception"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/exception.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 1,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/goldensectionsearch.cpp",
+                "kind" : 7,
+                "line" : 21,
+                "name" : "findInitialBracket(dredviz::CostFunction &, dredviz::DataMatrix &, const dredviz::DataMatrix &, double)",
+                "parent_name" : "GoldenSectionSearch",
+                "usr" : "c:@N@dredviz@C@GoldenSectionSearch@F@findInitialBracket#&$@N@dredviz@C@CostFunction#&$@N@dredviz@C@DataMatrix#&1S3_#d#"
+            },
+            {
+                "column" : 22,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/goldensectionsearch.cpp",
+                "kind" : 7,
+                "line" : 123,
+                "name" : "operator(dredviz::CostFunction &, dredviz::DataMatrix &, const dredviz::DataMatrix &, double, double &)",
+                "parent_name" : "GoldenSectionSearch",
+                "usr" : "c:@N@dredviz@C@GoldenSectionSearch@F@operator()#&$@N@dredviz@C@CostFunction#&$@N@dredviz@C@DataMatrix#&1S3_#d#&d#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/goldensectionsearch.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/goldensectionsearch.h",
+                "kind" : 2,
+                "line" : 15,
+                "name" : "GoldenSectionSearch",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@GoldenSectionSearch"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/goldensectionsearch.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 19,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/inputprobentropy.cpp",
+                "kind" : 7,
+                "line" : 13,
+                "name" : "evaluate(const dredviz::DataMatrix &)",
+                "parent_name" : "InputProbEntropy",
+                "usr" : "c:@N@dredviz@C@InputProbEntropy@F@evaluate#&1$@N@dredviz@C@DataMatrix#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/inputprobentropy.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/inputprobentropy.h",
+                "kind" : 2,
+                "line" : 10,
+                "name" : "InputProbEntropy",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@InputProbEntropy"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/inputprobentropy.h",
+                "kind" : 7,
+                "line" : 31,
+                "name" : "setRow(size_t)",
+                "parent_name" : "InputProbEntropy",
+                "usr" : "c:@N@dredviz@C@InputProbEntropy@F@setRow#l#"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/inputprobentropy.h",
+                "kind" : 7,
+                "line" : 39,
+                "name" : "getGradient(const dredviz::DataMatrix &, dredviz::DataMatrix &)",
+                "parent_name" : "InputProbEntropy",
+                "usr" : "c:@N@dredviz@C@InputProbEntropy@F@getGradient#&1$@N@dredviz@C@DataMatrix#&S1_#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/inputprobentropy.h",
+                "kind" : 7,
+                "line" : 44,
+                "name" : "reportParameters(std::string &)",
+                "parent_name" : "InputProbEntropy",
+                "usr" : "c:@N@dredviz@C@InputProbEntropy@F@reportParameters#&$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/inputprobentropy.h",
+                "kind" : 7,
+                "line" : 50,
+                "name" : "updateDynamicParameters(size_t, size_t, const dredviz::DataMatrix &)",
+                "parent_name" : "InputProbEntropy",
+                "usr" : "c:@N@dredviz@C@InputProbEntropy@F@updateDynamicParameters#l#l#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/inputprobentropy.h",
+                "kind" : 7,
+                "line" : 53,
+                "name" : "updateDataRepresentation(const dredviz::DataMatrix &)",
+                "parent_name" : "InputProbEntropy",
+                "usr" : "c:@N@dredviz@C@InputProbEntropy@F@updateDataRepresentation#&1$@N@dredviz@C@DataMatrix#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/inputprobentropy.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/klmeasure.cpp",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "c_klmeasure(NumericMatrix, NumericMatrix, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@c_klmeasure#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#I#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/klmeasure.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/klrank.cpp",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "klrank(NumericMatrix, NumericMatrix, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@klrank#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#I#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/klrank.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/linesearch.h",
+                "kind" : 2,
+                "line" : 12,
+                "name" : "LineSearch",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@LineSearch"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/linesearch.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/measure.h",
+                "kind" : 2,
+                "line" : 18,
+                "name" : "Measure",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@Measure"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/measure.h",
+                "kind" : 2,
+                "line" : 27,
+                "name" : "RowMismatch",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@Measure@C@RowMismatch"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/measure.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/metric.h",
+                "kind" : 2,
+                "line" : 12,
+                "name" : "Metric",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@Metric"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/metric.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 19,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.cpp",
+                "kind" : 7,
+                "line" : 21,
+                "name" : "calculateFinalNeighborhoods(size_t)",
+                "parent_name" : "NeRVCostFunction",
+                "usr" : "c:@N@dredviz@C@NeRVCostFunction@F@calculateFinalNeighborhoods#l#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.cpp",
+                "kind" : 7,
+                "line" : 40,
+                "name" : "updateOutputProb(const dredviz::DataMatrix &)",
+                "parent_name" : "NeRVCostFunction",
+                "usr" : "c:@N@dredviz@C@NeRVCostFunction@F@updateOutputProb#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.cpp",
+                "kind" : 7,
+                "line" : 87,
+                "name" : "updateDynamicParameters(size_t, size_t, const dredviz::DataMatrix &)",
+                "parent_name" : "NeRVCostFunction",
+                "usr" : "c:@N@dredviz@C@NeRVCostFunction@F@updateDynamicParameters#l#l#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.cpp",
+                "kind" : 7,
+                "line" : 112,
+                "name" : "evaluate(const dredviz::DataMatrix &)",
+                "parent_name" : "NeRVCostFunction",
+                "usr" : "c:@N@dredviz@C@NeRVCostFunction@F@evaluate#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.cpp",
+                "kind" : 7,
+                "line" : 142,
+                "name" : "updateDataRepresentation(const dredviz::DataMatrix &)",
+                "parent_name" : "NeRVCostFunction",
+                "usr" : "c:@N@dredviz@C@NeRVCostFunction@F@updateDataRepresentation#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.cpp",
+                "kind" : 7,
+                "line" : 150,
+                "name" : "getGradient(const dredviz::DataMatrix &, dredviz::DataMatrix &)",
+                "parent_name" : "NeRVCostFunction",
+                "usr" : "c:@N@dredviz@C@NeRVCostFunction@F@getGradient#&1$@N@dredviz@C@DataMatrix#&S1_#"
+            },
+            {
+                "column" : 19,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.cpp",
+                "kind" : 7,
+                "line" : 436,
+                "name" : "updateMinimumDistance(const dredviz::DataMatrix &)",
+                "parent_name" : "NeRVCostFunction",
+                "usr" : "c:@N@dredviz@C@NeRVCostFunction@F@updateMinimumDistance#&1$@N@dredviz@C@DataMatrix#"
+            },
+            {
+                "column" : 24,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.cpp",
+                "kind" : 7,
+                "line" : 457,
+                "name" : "reportParameters(std::string &)",
+                "parent_name" : "NeRVCostFunction",
+                "usr" : "c:@N@dredviz@C@NeRVCostFunction@F@reportParameters#&$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.h",
+                "kind" : 2,
+                "line" : 26,
+                "name" : "NeRVCostFunction",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@NeRVCostFunction"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervcostfunction.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervoptstrat.cpp",
+                "kind" : 7,
+                "line" : 12,
+                "name" : "optimize(const dredviz::DistanceMatrix &, dredviz::DataMatrix &, dredviz::OptimizationStepBatch &, dredviz::CostFunction &, std::ostream &)",
+                "parent_name" : "NeRVOptStrat",
+                "usr" : "c:@N@dredviz@C@NeRVOptStrat@F@optimize#&1$@N@dredviz@C@DistanceMatrix#&$@N@dredviz@C@DataMatrix#&$@N@dredviz@C@OptimizationStepBatch#&$@N@dredviz@C@CostFunction#&$@N@std@N@__1@C@basic_ostream>#C#$@N@std@N@__1@S@char_traits>#C#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervoptstrat.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 9,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervoptstrat.h",
+                "kind" : 2,
+                "line" : 13,
+                "name" : "NeRVOptStrat",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@NeRVOptStrat"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervoptstrat.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 18,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.cpp",
+                "kind" : 7,
+                "line" : 24,
+                "name" : "update(size_t, double)",
+                "parent_name" : "NeRVProbability",
+                "usr" : "c:@N@dredviz@C@NeRVProbability@F@update#l#d#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.cpp",
+                "kind" : 7,
+                "line" : 60,
+                "name" : "update(const vector<double> &)",
+                "parent_name" : "NeRVProbability",
+                "usr" : "c:@N@dredviz@C@NeRVProbability@F@update#&1$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#"
+            },
+            {
+                "column" : 25,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.cpp",
+                "kind" : 7,
+                "line" : 67,
+                "name" : "findSigma(size_t, size_t)",
+                "parent_name" : "NeRVProbability",
+                "usr" : "c:@N@dredviz@C@NeRVProbability@F@findSigma#l#l#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.cpp",
+                "kind" : 7,
+                "line" : 88,
+                "name" : "findSigma(vector<double> &, size_t)",
+                "parent_name" : "NeRVProbability",
+                "usr" : "c:@N@dredviz@C@NeRVProbability@F@findSigma#&$@N@std@N@__1@C@vector>#d#$@N@std@N@__1@C@allocator>#d#l#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.h",
+                "kind" : 2,
+                "line" : 14,
+                "name" : "NeRVProbability",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@NeRVProbability"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.h",
+                "kind" : 7,
+                "line" : 30,
+                "name" : "operator(size_t, size_t)",
+                "parent_name" : "NeRVProbability",
+                "usr" : "c:@N@dredviz@C@NeRVProbability@F@operator()#l#l#1"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.h",
+                "kind" : 7,
+                "line" : 39,
+                "name" : "getRows",
+                "parent_name" : "NeRVProbability",
+                "usr" : "c:@N@dredviz@C@NeRVProbability@F@getRows#1"
+            },
+            {
+                "column" : 10,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.h",
+                "kind" : 7,
+                "line" : 44,
+                "name" : "getCols",
+                "parent_name" : "NeRVProbability",
+                "usr" : "c:@N@dredviz@C@NeRVProbability@F@getCols#1"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/nervprobability.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/optimizationstep.h",
+                "kind" : 2,
+                "line" : 13,
+                "name" : "OptimizationStep",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@OptimizationStep"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/optimizationstep.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/optimizationstepbatch.h",
+                "kind" : 2,
+                "line" : 12,
+                "name" : "OptimizationStepBatch",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@OptimizationStepBatch"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/optimizationstepbatch.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/optimizationstrategybatch.h",
+                "kind" : 2,
+                "line" : 17,
+                "name" : "OptimizationStrategyBatch",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@OptimizationStrategyBatch"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/optimizationstrategybatch.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 22,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/randomdatagenerator.cpp",
+                "kind" : 7,
+                "line" : 24,
+                "name" : "loadData(dredviz::DataSet &)",
+                "parent_name" : "RandomDataGenerator",
+                "usr" : "c:@N@dredviz@C@RandomDataGenerator@F@loadData#&$@N@dredviz@C@DataSet#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/randomdatagenerator.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/randomdatagenerator.h",
+                "kind" : 2,
+                "line" : 14,
+                "name" : "RandomDataGenerator",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@RandomDataGenerator"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/randomdatagenerator.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 18,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.cpp",
+                "kind" : 7,
+                "line" : 34,
+                "name" : "calculateRanks(dredviz::CompareIndicesDist &, const dredviz::DistanceMatrix &)",
+                "parent_name" : "RankMatrix",
+                "usr" : "c:@N@dredviz@C@RankMatrix@F@calculateRanks#&$@N@dredviz@C@CompareIndicesDist#&1$@N@dredviz@C@DistanceMatrix#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.cpp",
+                "kind" : 7,
+                "line" : 72,
+                "name" : "calculateRanks(dredviz::CompareIndicesDist &, const dredviz::DistanceMatrix &, dredviz::RankMatrix &)",
+                "parent_name" : "RankMatrix",
+                "usr" : "c:@N@dredviz@C@RankMatrix@F@calculateRanks#&$@N@dredviz@C@CompareIndicesDist#&1$@N@dredviz@C@DistanceMatrix#&$@N@dredviz@C@RankMatrix#"
+            },
+            {
+                "column" : 18,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.cpp",
+                "kind" : 7,
+                "line" : 116,
+                "name" : "calculateRanks(dredviz::CompareIndicesUsingRankMatrix &, const dredviz::DistanceMatrix &)",
+                "parent_name" : "RankMatrix",
+                "usr" : "c:@N@dredviz@C@RankMatrix@F@calculateRanks#&$@N@dredviz@C@CompareIndicesUsingRankMatrix#&1$@N@dredviz@C@DistanceMatrix#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.h",
+                "kind" : 2,
+                "line" : 10,
+                "name" : "RankMatrix",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@RankMatrix"
+            },
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.h",
+                "kind" : 2,
+                "line" : 61,
+                "name" : "CompareIndicesUsingRankMatrix",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@CompareIndicesUsingRankMatrix"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.h",
+                "kind" : 7,
+                "line" : 77,
+                "name" : "setIndex(size_t)",
+                "parent_name" : "CompareIndicesUsingRankMatrix",
+                "usr" : "c:@N@dredviz@C@CompareIndicesUsingRankMatrix@F@setIndex#l#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.h",
+                "kind" : 7,
+                "line" : 81,
+                "name" : "setBest(bool)",
+                "parent_name" : "CompareIndicesUsingRankMatrix",
+                "usr" : "c:@N@dredviz@C@CompareIndicesUsingRankMatrix@F@setBest#b#"
+            },
+            {
+                "column" : 8,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.h",
+                "kind" : 7,
+                "line" : 86,
+                "name" : "operator(size_t, size_t)",
+                "parent_name" : "CompareIndicesUsingRankMatrix",
+                "usr" : "c:@N@dredviz@C@CompareIndicesUsingRankMatrix@F@operator()#l#l#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/rankmatrix.h",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 16,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/recorder.cpp",
+                "kind" : 7,
+                "line" : 7,
+                "name" : "record(const dredviz::DataMatrix &)",
+                "parent_name" : "Recorder",
+                "usr" : "c:@N@dredviz@C@Recorder@F@record#&1$@N@dredviz@C@DataMatrix#"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/recorder.cpp",
+        "file_last_write" : 1501794036
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/recorder.h",
+                "kind" : 2,
+                "line" : 5,
+                "name" : "Recorder",
+                "parent_name" : "",
+                "usr" : "c:@N@dredviz@C@Recorder"
+            }
+        ],
+        "file" : "/Users/florianlerch/Documents/PUB/dbt/Projections/src/recorder.h",
+        "file_last_write" : 1501794036
+    }
+]

@@ -1,0 +1,16 @@
+Package: dbt.Transforms
+Type: Package
+Title: DataBionics Toolbox - Transforms
+Version: 1.0.1
+Date: 2016-08-31
+Author: Friederike Matz, Michael Thrun
+Description: Transformations of high-dimensional data.
+Maintainer: Michael Thrun <mthrun@mathematik.uni-marburg.de>
+LazyLoad: yes
+Imports: 
+Suggest: AID
+Depends: R (>= 2.10)
+License: GPL-3
+LazyLoad: yes
+URL: https://www.uni-marburg.de/fb12/datenbionik/software-en
+Encoding: UTF-8

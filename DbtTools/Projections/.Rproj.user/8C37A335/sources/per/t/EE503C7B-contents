@@ -1,0 +1,27 @@
+library(dbt.DataIO)
+library(DbtFunc)
+library(pareto)
+library(AdaptGauss)
+
+setwd('/Users/m/uni/KD/KD_Projekt_1/RScripts/')
+aml_raw <- ReadLRN('../Data/13AMLKHd10')
+healthy_raw <- ReadLRN('../Data/13PKd10')
+
+
+aml_data <- aml_raw$Data
+healthy_data <- healthy_raw$Data
+aml_header <- aml_raw$Header
+healthy_header <- healthy_raw$Header
+
+scale_adjusted_healthy <- apply(healthy_data, 2, function (col) {col / max(col)})
+
+cd_45 <- healthy_data[,1]
+par(mfrow = c(2, 2))
+plot(ParetoDensityEstimation(cd_45)$paretoDensity, type= "l")
+hist(cd_45)
+qqnorm(cd_45)
+boxplot(cd_45)
+
+
+
+

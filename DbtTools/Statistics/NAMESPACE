@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+  importFrom("graphics", "hist", "par", "plot", "points")
+  importFrom("stats", "chisq.test", "cor", "cor.test", "dcauchy",
+             "dlnorm", "dnorm", "mad", "median", "pcauchy", "pnorm",
+             "pt", "qbinom", "qnorm", "quantile", "rlnorm", "rnorm",
+             "runif", "sd","wilcox.test")

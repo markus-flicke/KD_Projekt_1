@@ -1,0 +1,107 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 7,
+                "name" : "vecnorm(NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@vecnorm#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 22,
+                "name" : "vektorzugriff(NumericMatrix, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@vektorzugriff#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 40,
+                "name" : "vergl(NumericVector, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@vergl#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 54,
+                "name" : "toVec(NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@toVec#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 86,
+                "name" : "isNA(IntegerVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@isNA#$@N@Rcpp@C@Vector>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 104,
+                "name" : "excl(NumericMatrix, NumericVector, NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@excl#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S1_#I#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 151,
+                "name" : "Gab(NumericMatrix, NumericVector, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@Gab#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S1_#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 175,
+                "name" : "filterIndexVector(NumericVector, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@filterIndexVector#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 188,
+                "name" : "getAdjList(int, NumericMatrix)",
+                "parent_name" : "",
+                "usr" : "c:@F@getAdjList#I#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 243,
+                "name" : "fastPdist2(NumericMatrix, NumericMatrix)",
+                "parent_name" : "",
+                "usr" : "c:@F@fastPdist2#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+                "kind" : 6,
+                "line" : 261,
+                "name" : "BrokenGabrielEdgesX(NumericMatrix, IntegerMatrix)",
+                "parent_name" : "",
+                "usr" : "c:@F@BrokenGabrielEdgesX#$@N@Rcpp@C@Matrix>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#$@N@Rcpp@C@Matrix>#VI13#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "/Users/m/Uni/KD/KD_Projekt_1/DbtTools/GraphAlgorithms/src/GabrielGraph.cpp",
+        "file_last_write" : 1525280400
+    }
+]

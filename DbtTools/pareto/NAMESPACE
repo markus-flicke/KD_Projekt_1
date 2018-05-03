@@ -1,0 +1,17 @@
+exportPattern("^[[:alpha:]]+")
+import(Rcpp)
+import(AdaptGauss)
+import(ggplot2)
+#importFrom(plotly,'layout')
+#importFrom("sm",'binning')
+#importFrom("matlab",'meshgrid')
+#importFrom("RPMG",'rainbow.colors')
+importFrom('caTools', trapz)
+useDynLib(pareto,.registration = TRUE)
+
+  importFrom("grDevices", "colorRamp", "dev.new", "rainbow")
+  importFrom("graphics", "abline", "axTicks", "grid", "hist", "legend",
+             "plot", "points", "text", "title","contour","lines")
+  importFrom("stats", "dchisq", "density", "dist", "dnorm", "median",
+             "runif", "sd")
+  importFrom("utils", "tail")

@@ -1,0 +1,16 @@
+Package: dbt.RetroMAT
+Type: Package
+Title: Matlab Functions
+Version: 1.0
+Date: 2016-08-30
+Author:  Alfred Ultsch, Michael Thrun
+Description: RetroMAT liefert matlab functions in deren syntax.
+Maintainer: Michael Thrun <mthrun@mathematik.uni-marburg.de>
+LazyLoad: yes
+Imports: methods
+Suggest: matrixStats, rgl, utils
+Depends: R (>= 2.10)
+License: GPL-3
+LazyLoad: yes
+URL: https://www.uni-marburg.de/fb12/datenbionik/software-en
+Encoding: UTF-8

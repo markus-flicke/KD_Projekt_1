@@ -1,0 +1,9 @@
+{
+    "path" : "~/Documents/PUB/dbt/Projections",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

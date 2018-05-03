@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("AdaptGauss", "ParetoDensityEstimation")
+importFrom("reshape2", "melt")
+import("ggplot2")
+importFrom("graphics", "axis", "barplot", "box", "legend", "par",
+             "plot", "points")
+importFrom("stats", "cor", "dist", "dnorm", "end", "ftable", "median",
+             "pchisq", "quantile", "sd")
+importFrom("utils", "data")
+#importFrom("pracma", "perms")
+#importFrom("phyclust", "RRand")

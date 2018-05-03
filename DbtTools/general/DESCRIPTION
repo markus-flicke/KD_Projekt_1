@@ -1,0 +1,16 @@
+Package: dbt.general
+Type: Package
+Title: Summary of general helpful functions.
+Version: 1.1.3
+Date: 2016-11-08
+Author: Sascha Feld, Michael Thrun
+Maintainer: <ultsch@mathematik.uni-marburg.de>
+Description: Summary of general helpful functions.
+LazyLoad: yes
+Imports: 
+Suggest: 
+Depends: R (>= 2.10)
+License: GPL-3
+LazyLoad: yes
+URL: https://www.uni-marburg.de/fb12/datenbionik/software-en
+Encoding: 

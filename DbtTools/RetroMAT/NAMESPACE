@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+ importFrom("grDevices", "dev.cur")
+  importFrom("graphics", "barplot", "grid", "hist", "par", "plot",
+             "points", "title")
+  importFrom("methods", "is")
+  importFrom("stats", "dnorm", "lm", "pnorm", "qnorm")

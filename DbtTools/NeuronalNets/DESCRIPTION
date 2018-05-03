@@ -1,0 +1,16 @@
+Package: dbt.NeuronalNets
+Type: Package
+Title: MLP/BP package
+Version: 0.6.5
+Date: 2016-08-31
+Author: Michael Thrun, Alfred Ultsch
+Description: Functions for Multilayer perzeptrones with backpropagation (MLP/BP).
+Maintainer: Michael Thrun <mthrun@mathematik.uni-marburg.de>
+LazyLoad: yes
+Imports: 
+Suggest: e1071
+Depends: neuralnet, R (>= 2.10)
+License: GPL-3
+LazyLoad: yes
+URL: https://www.uni-marburg.de/fb12/datenbionik/software-en
+Encoding: UTF-8

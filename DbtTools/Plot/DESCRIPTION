@@ -1,0 +1,14 @@
+Package: dbt.Plot
+Type: Package
+Title: Various Plots
+Version: 1.2.2
+Date: 2016-08-2
+Author: Michael Thrun, Sabine Herda, Felix Pape, Rabea Griese, Alfred Ultsch
+Maintainer: Michael Thrun <mthrun@mathematik.uni-marburg.de>
+Description: Plotting functions like qqplot, zplot, scatterplot.
+License: GPL-3
+Depends: ggplot2
+Imports: reshape2
+Suggests: pracma, akima, plotly, plyr, gridExtra, grid
+LazyLoad: yes
+Encoding: UTF-8

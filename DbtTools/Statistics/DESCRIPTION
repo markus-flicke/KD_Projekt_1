@@ -1,0 +1,16 @@
+Package: dbt.Statistics
+Type: Package
+Title: Statistic package of the DBT
+Version: 1.1.0
+Date: 2016-08-31
+Author: Zornitsa Manolova, Michael Thrun, Alfred Ultsch
+Description: Statistic package of the databionics toolbox.
+Maintainer: Michael Thrun <mthrun@mathematik.uni-marburg.de>
+LazyLoad: yes
+Imports: 
+Suggest: 
+Depends: R (>= 2.10)
+License: GPL-3
+LazyLoad: yes
+URL: https://www.uni-marburg.de/fb12/datenbionik/software-en
+Encoding: UTF-8

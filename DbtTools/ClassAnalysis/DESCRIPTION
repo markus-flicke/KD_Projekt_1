@@ -1,0 +1,15 @@
+Package: dbt.ClassAnalysis
+Type: Package
+Title: Class analysis in cluster algorithms
+Version: 0.3.6
+Date: 2018-03-31
+Author: Michael Thrun, Felix Pape, Hansen-Goos, Raphael Paebst, Alfred Ultsch
+Maintainer: <mthrun@mathematik.uni-marburg.de>
+Description: This package collects functions for analysis and editing of classes in clustering algorithms.
+Imports: ggplot2, AdaptGauss, reshape2
+Suggest: pracma, phyclust
+License: GPL
+LazyLoad: yes
+Encoding: UTF-8
+Depends: R (>= 2.10)
+URL: https://www.uni-marburg.de/fb12/datenbionik/software-en

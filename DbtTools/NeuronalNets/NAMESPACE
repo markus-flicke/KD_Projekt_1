@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+#import(neuralnet)
+  importFrom("graphics", "plot")
+  importFrom("stats", "as.formula", "predict", "runif")

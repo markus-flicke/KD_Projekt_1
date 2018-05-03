@@ -1,0 +1,17 @@
+exportPattern("^[[:alpha:]]+")
+ importFrom("grDevices", "dev.cur", "dev.off", "graphics.off",
+             "postscript")
+  importFrom("graphics", "abline", "axis", "filled.contour", "grid",
+             "hist", "legend", "lines", "par", "plot", "points", "rect",
+             "symbols", "text", "title")
+  importFrom("stats", "acf", "ecdf", "lm", "median", "qcauchy", "qpois",
+             "qqnorm", "qqplot", "quantile", "qunif", "rchisq", "sd")
+ importFrom("reshape2", "melt")
+  #importFrom("grid", "grid.layout","grid.newpage","pushViewport","viewport")
+  #importFrom("gridExtra","grid.arrange")
+  
+ # importFrom("akima", "interp")
+ #  importFrom("plotly", "plot_ly")
+ #importFrom("plyr", "id")
+ 
+  import("ggplot2")

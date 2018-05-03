@@ -1,0 +1,11 @@
+Package: dbt.nanHandling
+Type: Package
+Title: Handling of Not a Number
+Version: 1.0.1
+Date: 2016-08-23
+Author: Zornitsa Manolova, Rabea Griese
+Maintainer:  Michael Thrun <mthrun@mathematik.uni-marburg.de>
+Description: Handling of Not a Number
+License: GPL
+LazyLoad: yes
+Suggests: Hmisc

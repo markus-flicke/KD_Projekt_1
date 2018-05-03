@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# Rechne die komplette FCPS durch mittels Minimum Curvilinear Embedding.\n# Embedding findet dabei sowohl durch SVD als auch durch MDS statt.\n# SVD und MDS werden zusaetzlich auch ohne den \"Minimum Curvilinear\" Teil berechnet.\n# Centring war immer an.\n\n\n# bestimme den Lehre Ordner auf Basis von .ResearchDirectory()\nLehreDirectory = paste0(paste0(head(strsplit(.ResearchDirectory(),'/')[[1]], -1), collapse = \"/\"), \"/lehre/\")\n\n\nOutputPath = paste0(LehreDirectory, \n           \"Vorlesungen/KnowledgeDiscovery/01Text/04ProjektionenUndVisualisierung/65MinimumCurvilinearEmbeddingNEU/\", \n           \"FCPSvsMCE4.pdf\")\n\npdf(OutputPath)\ngetwd()\nfor(i in 1:length(FCPS)){\n  name = names(FCPS)[i]\n  d = FCPS[[i]]$Data\n  cls = FCPS[[i]]$Cls\n  \n  if(length(cls) > 1000) next()\n  \n  par(mfrow=c(2,2))\n  try({\n    PPMCEMDS = MCE(d, 2, EmbeddingMethod = \"MDS\")\n    ClassPlot(PPMCEMDS[,1], PPMCEMDS[,2], cls, Title = paste0(\"MCE mit MDS / \", name))\n  })\n  try({\n    PPMCESVD = MCE(d, 2, EmbeddingMethod = \"SVD\")\n    ClassPlot(PPMCESVD[,1], PPMCESVD[,2], cls, Title = paste0(\"MCE mit SVD / \", name))\n  })\n  try({\n    PPMDS = MDS(d,OutputDimension = 2)\n    ClassPlot(PPMDS[,1], PPMDS[,2], cls, Title = paste0(\"MDS / \", name))\n  })\n  try({\n    PPSVD = SVDEmbedding(d, 2)\n    ClassPlot(PPSVD[,1], PPSVD[,2], cls, Title = paste0(\"SVD / \", name))\n  })\n  par(mfrow=c(1,1))\n  \n} \ndev.off()\n",
+    "created" : 1516618489448.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2080662104",
+    "id" : "45BC2B6E",
+    "lastKnownWriteTime" : 1516618709,
+    "last_content_update" : 1516618709866,
+    "path" : "~/Documents/lehre/Vorlesungen/KnowledgeDiscovery/01Text/04ProjektionenUndVisualisierung/65MinimumCurvilinearEmbeddingNEU/FCPSvsMCE.R",
+    "project_path" : null,
+    "properties" : {
+        "marks" : "<:10,0\n>:12,0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

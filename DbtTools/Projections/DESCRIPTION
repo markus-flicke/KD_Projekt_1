@@ -1,0 +1,14 @@
+Package: Projections
+Type: Package
+Title: Common Projection Methods and Quality Measurements
+Version: 1.0.0
+Date: 2018-01-28
+Author: Michael Thrun, Florian Lerch, Felix Pape
+Maintainer: <mthrun@mathematik.uni-marburg.de>
+Description: In diesem Paket wurden einige der wichtigsten Projektionsverfahren und Fehlermasse fuer diese implementiert.
+License: GPL-3
+Imports: Rcpp, ggplot2, stats, graphics, deldir, geometry
+Suggests: fastICA, tsne, FastKNN, vegan, MASS, pcaPP, spdep, methods, RDRToolbox, pracma, grid, dbt.ClassAnalysis, GraphAlgorithms, mgcv, GeneralizedUmatrix
+LinkingTo: Rcpp
+LazyData: TRUE
+Encoding: UTF-8

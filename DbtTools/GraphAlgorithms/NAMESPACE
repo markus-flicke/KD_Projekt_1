@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+  importFrom("graphics", "axis", "box", "par", "plot", "title")
+ importFrom("utils", "install.packages")
+  importFrom("stats", "dist")
+  importFrom("deldir", "deldir","tile.list")
+	import(Rcpp)
+useDynLib(GraphAlgorithms)
