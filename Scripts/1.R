@@ -15,3 +15,6 @@ scale_adjusted <- apply(data, 2, function (col) {col / max(col)})
 for (i in 1:length(header)){
   PlotDistributionAnalysis(data[,i], header[i], 'Healthy')
 }
+aml_raw <- ReadLRN("13AMLKHd10.lrn",getwd())
+setwd("C:/Users/EdisonZ/Documents/KD_Projekt_1/Data")
+aml_raw <- ReadLRN("13AMLKHd10.lrn", getwd())
