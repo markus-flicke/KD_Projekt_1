@@ -11,8 +11,10 @@ QQPlots
 Boxplots
 ParetoPDEs
 Histograms
-
-
-
-TODO:
 LadderOfPowers
+Attempt at Gauss Mixture Model using Adapt Gauss
+QQ plot against Gauss Mixture Model
+Chi Squared Test
+
+ToDo:
+KS-Test

@@ -1,9 +1,0 @@
-Was sagt uns unser statistisch verifiziertes GMM?
-
-	Die SS-GMM für gesund/AML sind unterschiedlich.
-
-	Wenn jetzt ein neuer Patient kommt und er eine gewisse SS Streuung hat, dann 	wenden wir wieder adapt Gauss an und schauen, ob er eher gesund oder krank 		aussieht. 
-
-
-
-So in etwa?
